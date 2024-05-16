@@ -1,0 +1,43 @@
+.home{
+    width: 60%;
+    height: 55vh;
+    color: #333;
+    padding: 1vh 5vw;
+}
+h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+}
+p{
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 5%;
+    height: 3rem;
+    overflow: hidden;
+}
+.ratings h5 {
+    margin: 0;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.ratingsBIG{
+    display: flex;
+}
+.starimg{
+    height: 1.5rem;
+    width: 1.5rem;
+    overflow: hidden;
+    
+}
+.starimg img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
